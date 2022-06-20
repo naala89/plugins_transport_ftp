@@ -3,7 +3,7 @@
 /**
  * Class TransportFtp.
  *
- * @package    ApiOpenStudio\Core
+ * @package    ApiOpenStudio\Plugins
  * @author     john89 (https://gitlab.com/john89)
  * @copyright  2020-2030 Naala Pty Ltd
  * @license    This Source Code Form is subject to the terms of the ApiOpenStudio Public License.
@@ -12,7 +12,7 @@
  * @link       https://www.apiopenstudio.com
  */
 
-namespace ApiOpenStudio\Core;
+namespace ApiOpenStudio\Plugins;
 
 use League\Flysystem\Filesystem;
 use League\Flysystem\FilesystemException;
