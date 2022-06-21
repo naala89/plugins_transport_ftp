@@ -3,12 +3,13 @@
   "description": "Transport for ApiOpenStudio output over the FTP protocol.",
   "keywords": [
     "apiopenstudio",
+    "api",
     "transport",
-    "ftp",
-    "flysystem",
     "filesystem",
     "storage",
-    "file"
+    "flysystem",
+    "file",
+    "ftp"
   ],
   "type": "package",
   "license": "MIT",

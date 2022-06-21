@@ -10,14 +10,19 @@ Transport for ApiOpenStudio output to a remote server using the FTP protocol.
 
 # Configuration
 
-Add a remote output processor to your resource, i.e.
+Add a remote output processor to your resource.
+
+The output section example below will return the output in the response as well
+as upload the response to a server using FTP:
+
+
 
     output:
         -
             processor: xml_remote
             id: example XML Remote output
             filename: example.xml
-            transport: transport_ftp
+            transport: ApiOpenStudio\Plugins\TransportFtp
             parameters:
                 host: 192.168.0.1
                 root: /home/ftp_user
@@ -35,6 +40,8 @@ Add a remote output processor to your resource, i.e.
                 recurseManually: true
         - 
             response
+
+**Note:** the value for the transport is the full namespace path.
 
 ## Parameters
 
